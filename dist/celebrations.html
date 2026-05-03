@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Achievements and Celebrations - Suthapalli Chakradhar">
+    <title>Celebrations | Suthapalli Chakradhar</title>
+
+    <!-- Fonts: Inter and Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons: Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Prevent FOUC: hide body until CSS is loaded -->
+    <style>
+        body {
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        body.loaded {
+            opacity: 1;
+        }
+    </style>
+  <script type="module" crossorigin src="/assets/celebrations-CL6zRVy9.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/modulepreload-polyfill-B5Qt9EMX.js">
+  <link rel="stylesheet" crossorigin href="/assets/celebrations-9uoeS2cs.css">
+</head>
+
+<body>
+    <!-- Background Animated Blobs -->
+    <div class="bg-blur"></div>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="scroll-progress"></div>
+        <a href="index.html#home" class="logo">SC.</a>
+        <ul class="nav-links">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#education">Education</a></li>
+            <li><a href="index.html#skills">Skills</a></li>
+            <li><a href="index.html#certifications">Certifications</a></li>
+            <li><a href="index.html#hackathons">Hackathons</a></li>
+            <li><a href="index.html#profiles">Coding Profiles</a></li>
+            <li><a href="index.html#projects">Projects</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="celebrations.html" class="active">Celebrations</a></li>
+        </ul>
+        <div class="menu-btn"><i class='bx bx-menu'></i></div>
+    </nav>
+
+    <!-- Hero Section for Celebrations -->
+    <section class="hero section reveal">
+        <div class="hero-content">
+            <p class="greeting">Highlighting My</p>
+            <h1 class="name">Celebrations & Achievements</h1>
+            <p class="hero-desc">A collection of milestones and achievements that define my journey.</p>
+        </div>
+    </section>
+
+    <!-- Celebrations Headings Section -->
+    <section id="celebrations-list" class="section">
+        <div class="section-title reveal">
+            <h2>Celebrations</h2>
+            <div class="underline"></div>
+        </div>
+
+        <div class="celebrations-grid scroll-reveal fade-up">
+
+            <div class="celebration-heading-card" data-popup="academic-topper">
+                <div class="celebration-heading-icon"><i class='bx bxs-graduation'></i></div>
+                <h3>Academic Topper Award of 2023-2027 Batch in KLU</h3>
+                <p class="celebration-hint">Click to view details <i class='bx bx-right-arrow-alt'></i></p>
+            </div>
+
+            <div class="celebration-heading-card" data-popup="quiz-winner">
+                <div class="celebration-heading-icon"><i class='bx bxs-bulb'></i></div>
+                <h3>Winner in Quiz Competition</h3>
+                <p class="celebration-hint">Click to view details <i class='bx bx-right-arrow-alt'></i></p>
+            </div>
+
+            <div class="celebration-heading-card" data-popup="zero-one-coding">
+                <div class="celebration-heading-icon"><i class='bx bxs-trophy'></i></div>
+                <h3>Awarded 4th Place in Zero One Coding Ladder Contest</h3>
+                <p class="celebration-hint">Click to view details <i class='bx bx-right-arrow-alt'></i></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popup Modal Overlay -->
+    <div class="popup-overlay" id="popupOverlay">
+        <div class="popup-content" id="popupContent">
+            <button class="popup-close" id="popupClose" aria-label="Close popup">&times;</button>
+            <div class="popup-body" id="popupBody">
+                <!-- Dynamic content will be injected here -->
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Suthapalli Chakradhar. All rights reserved.</p>
+            <p class="small">Designed & Built with <i class='bx bxs-heart' style='color: #ff4b2b;'></i> by Suthapalli Chakradhar</p>
+            <p class="small"><i class='bx bxs-map'></i> Salur, Andhra Pradesh, India</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
