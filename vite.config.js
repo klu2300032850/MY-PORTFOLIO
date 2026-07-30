@@ -1,8 +1,9 @@
-<<<<<<< HEAD
-import { defineConfig } from 'vite' import { resolve, dirname } from 'path' import { fileURLToPath } from 'url' const __dirname = dirname(fileURLToPath(import.meta.url)) export default defineConfig({ build: { rollupOptions: { input: { main: resolve(__dirname, 'index.html'), celebrations: resolve(__dirname, 'celebrations.html'), }, }, }, })
-=======
 import { defineConfig } from 'vite'
-import { resolve } from 'path'
+import { resolve, dirname } from 'path'
+import { fileURLToPath } from 'url'
+
+// Fix for __dirname in ES modules
+const __dirname = dirname(fileURLToPath(import.meta.url))
 
 export default defineConfig({
   build: {
@@ -14,4 +15,3 @@ export default defineConfig({
     },
   },
 })
->>>>>>> c38dcb1 (second commit)

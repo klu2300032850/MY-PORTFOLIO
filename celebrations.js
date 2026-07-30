@@ -25,10 +25,10 @@ const popupData = {
             </p>
             <div class="celebration-photos">
                 <div class="photo-grid">
-                    <img src="celebrationPhotos/academictopperaward1.jpeg" alt="Academic Topper Award 1" class="celebration-photo" loading="lazy">
-                    <img src="celebrationPhotos/academictopperaward2.jpeg" alt="Academic Topper Award 2" class="celebration-photo" loading="lazy">
-                    <img src="celebrationPhotos/academictopperaward3.jpeg" alt="Academic Topper Award 3" class="celebration-photo" loading="lazy">
-                    <img src="celebrationPhotos/academictopperaward4.jpeg" alt="Academic Topper Award 4" class="celebration-photo" loading="lazy">
+                    <img src="/celebrationPhotos/academictopperaward1.jpeg" alt="Academic Topper Award 1" class="celebration-photo" loading="lazy">
+                    <img src="/celebrationPhotos/academictopperaward2.jpeg" alt="Academic Topper Award 2" class="celebration-photo" loading="lazy">
+                    <img src="/celebrationPhotos/academictopperaward3.jpeg" alt="Academic Topper Award 3" class="celebration-photo" loading="lazy">
+                    <img src="/celebrationPhotos/academictopperaward4.jpeg" alt="Academic Topper Award 4" class="celebration-photo" loading="lazy">
                 </div>
             </div>
         `
@@ -41,7 +41,7 @@ const popupData = {
             </p>
             <div class="celebration-photos">
                 <div class="photo-grid">
-                    <img src="celebrationPhotos/winnerinquizcompetition1.jpeg" alt="Quiz Competition Winner" class="celebration-photo" loading="lazy">
+                    <img src="/celebrationPhotos/winnerinquizcompetition1.jpeg" alt="Quiz Competition Winner" class="celebration-photo" loading="lazy">
                 </div>
             </div>
         `
@@ -54,7 +54,7 @@ const popupData = {
             </p>
             <div class="celebration-photos">
                 <div class="photo-grid">
-                    <img src="celebrationPhotos/zeroonecodingcontest1.png" alt="Zero One Coding Contest" class="celebration-photo" loading="lazy">
+                    <img src="/celebrationPhotos/zeroonecodingcontest1.png" alt="Zero One Coding Contest" class="celebration-photo" loading="lazy">
                 </div>
             </div>
         `
